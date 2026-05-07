@@ -68,12 +68,6 @@ The purpose of this repository is to:
 * Video Tag
 * Iframe
 
-## Responsive Basics
-
-* Viewport Meta Tag
-* Responsive Images
-
----
 
 # Practice Projects Included
 
@@ -88,41 +82,4 @@ The purpose of this repository is to:
 # Technologies Used
 
 * HTML5
-* Basic CSS
-* Bootstrap Basics
-
----
-
-# How to Run
-
-1. Download or clone the repository
-2. Open the project folder
-3. Run the HTML file in any browser
-
----
-
-# What I Learned
-
-While practicing these examples, I learned:
-
-* How webpages are structured
-* Creating forms and tables
-* Adding links and images
-* Building simple responsive layouts
-* Understanding semantic tags
-
----
-
-# Future Improvements
-
-* Add CSS styling
-* Create responsive webpages
-* Learn JavaScript
-* Build frontend projects
-
----
-
-# Author
-
-Mahesh
 
