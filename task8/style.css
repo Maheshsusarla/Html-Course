@@ -1,0 +1,102 @@
+body{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav{
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20251020/pngtree-modern-office-with-city-view-abstract-gradient-background-copy-space-image_19922888.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 10px;
+}
+nav ol {
+    display: flex;
+    justify-content:space-evenly;
+}
+.main1{
+    position: relative;
+}
+.main2{
+    margin-bottom: 0px;
+    position: absolute;
+    left: 88%;
+    bottom: 3%;
+}
+.main3{
+    text-align: center;
+    margin-top: 200px;
+}
+.main3 h1{
+    color: orange;
+}
+.main3 p{
+    width: 350px;
+    padding-left: 550px;
+    font-size: 20px;
+}
+.main3 button{
+    border: none;
+    padding: 20px;
+    background-color: brown;
+    color: white;
+    border-radius: 30px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightblue;
+    height: 60vh;
+}
+img{
+    width: 400px;
+    height: 300px;
+    padding: 50px;
+}
+.about1{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.footer{
+    background-color: rgb(5, 116, 103);
+}   
+
+.foot1{
+    text-align: center;
+    padding: 30px;
+}
+.foot1 h3 {
+    font-size: 30px;
+    color: wheat;
+}
+.foot1 p{
+    color: wheat;
+    font-size: 20px;
+}
+.mainbox{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    
+}
+
+.box h2{
+    text-align: center;
+}
+.box p{
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+}
+.box button{
+    margin-left: 115px;
+    padding: 10px;
+    background-color: palevioletred;
+    color: white;
+    border-radius: 20px;
+}
