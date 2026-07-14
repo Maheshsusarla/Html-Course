@@ -1,0 +1,145 @@
+<!-- Introduction
+
+HTML tables are used to display data in rows and columns.
+A table is created using the <table> tag.
+
+Tables are commonly used for:
+
+Student records,Employee data,Product lists,TimetablesReports
+📚 Topics Covered:
+Table Structure
+Rows and Columns
+Table Headers
+colspan and rowspan
+Complete Example -->
+
+1️⃣ Table Structure
+HTML tables are created using these main tags:
+Tag	Description
+
+<table>	Creates the table
+<tr>	Creates a table row
+<th>	Creates a table header
+<td>	Creates table data cells
+
+2️⃣ Rows and Columns
+
+A row is created using <tr>
+Data inside rows is added using <td>
+Example
+<table border="1">
+
+    <tr>
+        <td>Mahesh</td>
+        <td>20</td>
+    </tr>
+
+    <tr>
+        <td>Ravi</td>
+        <td>22</td>
+    </tr>
+
+</table>
+
+
+3️⃣ Table Headers:
+The <th> tag is used to create headings in a table.
+Text inside <th> is bold and centered by default.
+Example
+
+<table border="1">
+
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+    </tr>
+
+    <tr>
+        <td>Mahesh</td>
+        <td>20</td>
+    </tr>
+
+</table>
+
+4️⃣ Colspan and Rowspan
+🔹 Colspan
+colspan is used to merge columns.
+Example
+<table border="1">
+
+    <tr>
+        <th colspan="2">Student Details</th>
+    </tr>
+
+    <tr>
+        <td>Mahesh</td>
+        <td>20</td>
+    </tr>
+
+</table>
+
+🔹 Rowspan
+
+rowspan is used to merge rows.
+Example
+<table border="1">
+
+    <tr>
+        <th>Name</th>
+        <th>Subject</th>
+    </tr>
+
+    <tr>
+        <td rowspan="2">Mahesh</td>
+        <td>HTML</td>
+    </tr>
+
+    <tr>
+        <td>CSS</td>
+    </tr>
+
+</table>
+
+5️⃣ Complete Table Example
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Tables</title>
+</head>
+<body>
+
+    <h1>Student Table</h1>
+
+    <table border="1" cellpadding="10">
+
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Course</th>
+        </tr>
+
+        <tr>
+            <td>Mahesh</td>
+            <td>20</td>
+            <td>HTML</td>
+        </tr>
+
+        <tr>
+            <td>Ravi</td>
+            <td>22</td>
+            <td>CSS</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
+
+✅ Summary
+Feature	Purpose
+<table>	Creates table
+<tr>	Creates row
+<th>	Creates heading
+<td>	Adds data
+colspan	Merges columns
+rowspan	Merges rows
