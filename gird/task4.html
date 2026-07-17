@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            background-color: lightgreen;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: "header header" "nav article" "nav ads" "footer footer";
+            height: 80vh;
+        }
+          .box{
+            border: 2px solid black;
+            color: black;
+            font-size: 20px;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box-1{
+            grid-area: header;
+        }
+        .box-2{
+            grid-area:nav;
+        }
+        .box-3{
+            grid-area: article;
+
+        }
+        .box-4{
+            grid-area:ads;
+        }
+        .box-5{
+            grid-area:footer;
+        }
+
+    </style>
+</head>
+<body>
+     <div class="container">
+        <div class="box box-1">Header</div>
+        <div class="box box-2">nav bar</div>
+        <div class="box box-3">Artical</div>
+        <div class="box box-4">Ads</div>
+        <div class="box box-5">footer</div>
+    </div> 
+    
+</body>
+</html>

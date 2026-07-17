@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-image: url("https://www.shutterstock.com/image-illustration/vintage-fruit-pattern-on-black-260nw-301067264.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    opacity: 0.9;
+    padding-top: 20px;
+}
+
+
+.container1 h1{
+    color: wheat;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.card{
+    width: 250px;
+    background-color: white;
+    border-radius: 30px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+}
+
+
+.card-img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+   margin:  20px auto; 
+}
+
+
+.card h2{
+    font-family: Arial, sans-serif;
+    margin-bottom: 15px;
+}
+
+.card p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+.cards{
+    width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+
+.main{
+    background-color: white;
+    width: 800px;
+    border-radius: 20px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.content{
+    display: inline-block;
+    margin: 10px 20px ;
+    text-align: center;
+    width: 150px;
+    margin: 10px;
+    vertical-align: top;
+}
+.content img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.content h4{
+    margin-top: 10px;
+}
+
+.mail{
+    margin: 30px auto;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    width: 800px;
+    border-radius: 20px;
+}
+
+.mail i,.mail p{
+   display: inline-block   ;
+}
+
+.mail p{
+   margin-left: 10px;
+}
