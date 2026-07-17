@@ -1,0 +1,79 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.about{
+    text-align: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUcGp1g9Xh2O1FLok8YhPLaexKVFFe4Y7rQQ&s);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding:100px 20px;
+}
+.about h1{
+    font-weight: bold;
+    color: white;
+    text-decoration: underline;
+    text-decoration-line: underline;
+}
+.p1{
+    width:60%;
+    margin:auto;
+    color: white;
+    padding: 30px;
+}
+.info p{
+    color: rgb(242, 255, 0);
+}
+
+.title{
+    height: 200px;
+    background-color: lightblue;
+    padding: 30px;
+    margin-top: 10px;
+}
+.h2{
+    text-align: center;
+    margin:80px
+}
+.box-main{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    background-color: lightblue;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.box h3{
+    text-align: center;
+    font-size: 20px;
+}
+
+.price{
+    background-color: lightblue;
+    padding: 20px;
+    padding: 20px;
+    margin-top: 10px;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.class-box1 h3{
+    text-align: center;
+}
+.btn{
+display:block;
+margin:auto;
+}
+.footer{
+    background-color: lightblue;
+    padding: 50px;
+    margin-top: 10px;
+}
+.footer h2{
+    text-align: center;
+}

@@ -1,0 +1,200 @@
+<!-- Forms in HTML
+Introduction
+
+HTML forms are used to collect information from users. Forms help users enter data like
+ names, emails, passwords, feedback, and more. Forms are widely used in login pages, registration pages, contact pages, and surveys. -->
+
+<!-- Topics
+
+Form Structure
+Input Fields
+Labels
+Radio Buttons
+Checkboxes
+Dropdown Lists
+Textarea
+Buttons
+Complete Form Example
+Form Structure -->
+
+The <form> tag is used to create a form in HTML.
+Syntax
+
+<form>
+
+</form>
+
+Input Fields: The <input> tag is used to create different types of input fields.
+
+<!-- Common  Input Types
+InputType	           Description
+text	        Used for normal text input
+password	    Used to hide password text
+email	       Used for email input
+number	       Used for numbers
+date	       Used to select dates -->
+
+Example:
+<form>
+
+    <input type="text" placeholder="Enter your name">
+
+    <br><br>
+
+    <input type="password" placeholder="Enter password">
+
+</form>
+
+Labels:The <label> tag gives a name or description to an input field.
+
+Example:
+<form>
+
+    <label>Username:</label>
+    <input type="text">
+
+</form>
+
+Radio Buttons:Radio buttons are used when only one option should be selected.
+
+Example:
+<form>
+
+    <label>Gender:</label>
+
+    <input type="radio" name="gender"> Male
+
+    <input type="radio" name="gender"> Female
+
+</form>
+
+Checkboxes: Checkboxes allow users to select multiple options.
+
+Example:
+<form>
+
+    <label>Technologies:</label>
+
+    <input type="checkbox"> HTML
+
+    <input type="checkbox"> CSS
+
+    <input type="checkbox"> JavaScript
+
+</form>
+
+Dropdown Lists: The <select> tag creates a dropdown menu.
+Example:
+<form>
+
+    <label>Select Course:</label>
+
+    <select>
+        <option>HTML</option>
+        <option>CSS</option>
+        <option>JavaScript</option>
+    </select>
+
+</form>
+
+Textarea: The <textarea> tag is used for multi-line text input.
+
+Example:
+<form>
+
+    <label>Feedback:</label>
+
+    <br>
+
+    <textarea rows="5" cols="30"></textarea>
+
+</form>
+Buttons: Buttons are used to submit or reset form data.
+
+Example:
+<form>
+
+    <input type="submit" value="Submit">
+
+    <input type="reset" value="Reset">
+
+</form>
+
+Complete Form Example
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Forms</title>
+</head>
+<body>
+
+    <h1>Student Registration Form</h1>
+
+    <form>
+
+        <label>Full Name:</label>
+        <input type="text" placeholder="Enter your name">
+
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" placeholder="Enter your email">
+
+        <br><br>
+
+        <label>Password:</label>
+        <input type="password" placeholder="Enter password">
+
+        <br><br>
+
+        <label>Gender:</label>
+
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+
+        <br><br>
+
+        <label>Skills:</label>
+
+        <input type="checkbox"> HTML
+        <input type="checkbox"> CSS
+        <input type="checkbox"> JavaScript
+
+        <br><br>
+
+        <label>Select Course:</label>
+
+        <select>
+            <option>Frontend</option>
+            <option>Backend</option>
+            <option>Full Stack</option>
+        </select>
+
+        <br><br>
+
+        <label>Address:</label>
+
+        <br>
+
+        <textarea rows="5" cols="30"></textarea>
+
+        <br><br>
+
+        <input type="submit" value="Register">
+
+        <input type="reset" value="Clear">
+
+    </form>
+
+</body>
+</html>
+
+<!-- Summary
+Tag	Purpose
+<form>	Creates a form
+<input>	Creates input fields
+<label>	Adds labels
+<select>	Creates dropdown
+<option>	Dropdown items
+<textarea>	Multi-line input
+<button>	Creates button -->

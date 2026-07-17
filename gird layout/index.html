@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .main{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr ;
+            height: 100vh;
+            /* grid-template-columns: repeat(4,1fr); */
+            /* grid-template-columns: 50% 20% 15% 15%; */
+            grid-template-rows: 60px 1fr 60px 60px;
+            gap: 10px;
+        }
+        .div1{
+            background-color: red;
+            grid-column: 1/4;
+        }
+        .div2{
+            background-color:blue;
+            grid-row: 2/5;
+            
+        }
+        .div3{
+            background-color: yellowgreen;
+            grid-column: 2/4;
+        }
+        .div4{
+            background-color:brown;
+            grid-column: 2/3;
+        }
+        .div4{
+            background-color: green;
+        }
+        .div5{
+            background-color: black;
+            grid-column: 3/5;
+        }
+        .div6{
+            background-color: gray;
+            grid-column: 2/4;
+        }
+        .divitem{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="divitem div1">Item1</div>
+        <div class="divitem div2">Item2</div>
+        <div class="divitem div3">Item3</div>
+        <div class="divitem div4">Item4</div>
+        <div class="divitem div5">Item15</div>
+        <div class="divitem div6">Item16</div>
+
+    </div>
+</body>
+</html>
